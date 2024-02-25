@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <Row className='p-3'>
-        <Col>
+        <Col className='text-center'>
           <h1>Lista de colaboradores</h1>
           <Buscador buscar ={buscarColaboradores}/>
           <Table striped bordered hover size="sm" responsive>
