@@ -50,6 +50,7 @@ function App() {
                     <th>Edad</th>
                     <th>Cargo</th>
                     <th>Teléfono</th>
+                    <th>Acción</th>
                   </tr>
                 </thead>
                 <tbody>
