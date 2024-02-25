@@ -88,7 +88,7 @@ const Formulario = ({ setMessage, agregarColaborador,setError, setSuccess }) => 
 
     return (
         <>
-        <Form className="sm-1col d-flex flex-column p-3 row g-2 text-center" onSubmit={Validation}>
+        <Form className="sm-1col d-flex flex-column p-3 row g-2 text-center text-white bg-black" onSubmit={Validation}>
             <h2>Agregar Colaborador</h2>
             <FormControl type="text" value={Name} placeholder="Nombre del colaborador" onChange={ChangeName}/>
             <FormControl type="text" value={Email} placeholder="Email del colaborador"onChange={ChangeEmail}/>
